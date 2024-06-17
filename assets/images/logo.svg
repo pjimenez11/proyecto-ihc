@@ -1,0 +1,15 @@
+<svg id="Componente_8_1" data-name="Componente 8 – 1" xmlns="http://www.w3.org/2000/svg" width="347" height="110" viewBox="0 0 347 110">
+    <rect id="Rectángulo_2" data-name="Rectángulo 2" width="344" height="110" fill="none"/>
+    <rect id="Rectángulo_3" data-name="Rectángulo 3" width="26" height="26" rx="4" transform="translate(7 77)" fill="#14cee3"/>
+    <rect id="Rectángulo_4" data-name="Rectángulo 4" width="26" height="26" rx="4" transform="translate(43 77)" fill="#12cfe2"/>
+    <rect id="Rectángulo_5" data-name="Rectángulo 5" width="26" height="26" rx="4" transform="translate(79 77)" fill="#32b3d3"/>
+    <rect id="Rectángulo_6" data-name="Rectángulo 6" width="26" height="26" rx="4" transform="translate(115 77)" fill="#33b2d8"/>
+    <rect id="Rectángulo_7" data-name="Rectángulo 7" width="26" height="26" rx="4" transform="translate(43 43)" fill="#31b2d2"/>
+    <rect id="Rectángulo_8" data-name="Rectángulo 8" width="26" height="26" rx="4" transform="translate(79 43)" fill="#32b1d2"/>
+    <rect id="Rectángulo_9" data-name="Rectángulo 9" width="26" height="26" rx="4" transform="translate(115 43)" fill="#1170a6"/>
+    <rect id="Rectángulo_10" data-name="Rectángulo 10" width="26" height="26" rx="4" transform="translate(79 8)" fill="#15bdda"/>
+    <rect id="Rectángulo_11" data-name="Rectángulo 11" width="195" height="31" rx="10" transform="translate(149 72)" fill="#1371a4"/>
+    <text id="CONTFI" transform="translate(249 53)" fill="#2b318a" font-size="48" font-family="Poppins-ExtraBold, Poppins" font-weight="800" letter-spacing="0.06em"><tspan x="-97.992" y="0">CONTFI</tspan></text>
+    <text id="ASESORIA_CONTABLE" data-name="ASESORIA CONTABLE" transform="translate(151 75)" fill="#f8f9fd" font-size="18" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="19">ASESORIA CONTABLE</tspan></text>
+  </svg>
+  
