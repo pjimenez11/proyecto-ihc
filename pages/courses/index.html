@@ -1,33 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/global.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/global.css" />
+    <link rel="stylesheet" href="course-list.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-          <ul>
-            <li><a href="/">Inicio</a></li>
-            <li><a href="/pages/courses/index.html">Cursos</a></li>
-            <li>
-              <a href="/pages/info-course/index.html">Información del curso</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <main id="main-content">
-        <h1>Cursos</h1>
+      <nav>
         <ul>
-          <li><a href="/pages/info-course/index.html">Curso de HTML</a></li>
-          <li><a href="/pages/info-course/index.html">Curso de CSS</a></li>
-          <li><a href="/pages/info-course/index.html">Curso de JavaScript</a></li>
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/pages/courses/index.html">Cursos</a></li>
+          <li>
+            <a href="/pages/info-course/index.html">Información del curso</a>
+          </li>
         </ul>
-      </main>
-      <footer>
-        <p>&copy; 2024 Tu Empresa. Todos los derechos reservados.</p>
-      </footer>
-</body>
+      </nav>
+    </header>
+    <main class="main-content">
+      <div class="search-container">
+        <input type="search" class="search-input" placeholder="Buscar.." />
+        <button class="search-button">
+          <img src="/assets/svgs/search-icon.svg" alt="Search" />
+        </button>
+      </div>
+      <div class="cards-cointainer">
+        <div class="course-card">
+          <!-- <img
+            src="/assets/images/Style.pngasd"
+            alt="Curso de programación"
+            class="course-image"
+          /> -->
+          <h2 class="course-title">Curso de programación</h2>
+          <p class="course-description">
+            Aprende a programar desde cero con este curso
+          </p>
+          <button class="course-button">Ver más</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2024 Tu Empresa. Todos los derechos reservados.</p>
+    </footer>
+  </body>
 </html>
