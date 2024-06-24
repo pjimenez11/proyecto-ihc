@@ -1,0 +1,91 @@
+main {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  background-color: white;
+  width: 82%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.header {
+  background-color: #e0e7ff;
+  padding: 20px;
+  text-align: center;
+}
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #1e3a8a;
+}
+.content {
+  padding: 20px;
+}
+.content p {
+  color: #4a4a4a;
+  line-height: 1.6;
+}
+.features,
+.benefits {
+  margin-top: 20px;
+}
+.features h2,
+.benefits h2 {
+  font-size: 20px;
+  color: #1e3a8a;
+}
+.features ul,
+.benefits ul {
+  list-style: none;
+  padding: 0;
+}
+.features li,
+.benefits li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.features li:before,
+.benefits li:before {
+  content: "✔";
+  color: #4caf50;
+  margin-right: 10px;
+}
+.sidebar {
+  background-color: #e0e7ff;
+  padding: 20px;
+  text-align: center;
+}
+.sidebar .price {
+  font-size: 28px;
+  color: #1e3a8a;
+  margin: 0;
+}
+.sidebar .old-price {
+  text-decoration: line-through;
+  color: #999;
+}
+.sidebar .button {
+  display: inline-block;
+  background-color: #3b82f6;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.sidebar .details {
+  margin-top: 20px;
+  text-align: left;
+}
+.sidebar .details p {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.sidebar .details p i {
+  margin-right: 10px;
+}
