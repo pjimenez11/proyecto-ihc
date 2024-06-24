@@ -11,16 +11,7 @@ main {
   border-radius: 8px;
   overflow: hidden;
 }
-.header {
-  background-color: #e0e7ff;
-  padding: 20px;
-  text-align: center;
-}
-.header h1 {
-  margin: 0;
-  font-size: 24px;
-  color: #1e3a8a;
-}
+
 .content {
   padding: 20px;
 }
