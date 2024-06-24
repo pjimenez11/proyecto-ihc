@@ -1,0 +1,14 @@
+<svg id="Logo-light" xmlns="http://www.w3.org/2000/svg" width="347" height="113" viewBox="0 0 347 113">
+  <rect id="Rectángulo_50" data-name="Rectángulo 50" width="344" height="113" fill="none"/>
+  <rect id="Rectángulo_51" data-name="Rectángulo 51" width="26" height="26" rx="4" transform="translate(7 80)" fill="#14cee3"/>
+  <rect id="Rectángulo_52" data-name="Rectángulo 52" width="26" height="26" rx="4" transform="translate(43 80)" fill="#12cfe2"/>
+  <rect id="Rectángulo_53" data-name="Rectángulo 53" width="26" height="26" rx="4" transform="translate(79 80)" fill="#32b3d3"/>
+  <rect id="Rectángulo_54" data-name="Rectángulo 54" width="26" height="26" rx="4" transform="translate(115 80)" fill="#33b2d8"/>
+  <rect id="Rectángulo_55" data-name="Rectángulo 55" width="26" height="26" rx="4" transform="translate(43 44)" fill="#31b2d2"/>
+  <rect id="Rectángulo_56" data-name="Rectángulo 56" width="26" height="26" rx="4" transform="translate(79 44)" fill="#32b1d2"/>
+  <rect id="Rectángulo_57" data-name="Rectángulo 57" width="26" height="26" rx="4" transform="translate(115 44)" fill="#1170a6"/>
+  <rect id="Rectángulo_58" data-name="Rectángulo 58" width="26" height="26" rx="4" transform="translate(79 8)" fill="#15bdda"/>
+  <rect id="Rectángulo_59" data-name="Rectángulo 59" width="195" height="31" rx="10" transform="translate(149 75)" fill="#1371a4"/>
+  <text id="CONTFI" transform="translate(249 53)" fill="#f8f9fd" font-size="48" font-family="Poppins-ExtraBold, Poppins" font-weight="800" letter-spacing="0.06em"><tspan x="-97.992" y="0">CONTFI</tspan></text>
+  <text id="ASESORIA_CONTABLE" data-name="ASESORIA CONTABLE" transform="translate(151 78)" fill="#f8f9fd" font-size="18" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="19">ASESORIA CONTABLE</tspan></text>
+</svg>

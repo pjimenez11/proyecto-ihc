@@ -1,66 +1,119 @@
 main {
   display: flex;
+  width: 100%;
   justify-content: center;
-  padding: 20px;
+  gap: 20px;
 }
 
 .container {
+  display: flex;
+  flex-direction: row;
   background-color: white;
-  width: 82%;
+  width: 80%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.section-1 {
+  padding: 20px;
+  width: 80%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1px 10px;
+  background: #cddeff;
+  border-radius: 8px;
+}
+
+.header img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
 }
 
 .content {
   padding: 20px;
 }
+
 .content p {
   color: #4a4a4a;
   line-height: 1.6;
 }
+
 .features,
 .benefits {
   margin-top: 20px;
 }
+
 .features h2,
 .benefits h2 {
   font-size: 20px;
   color: #1e3a8a;
+  margin-bottom: 10px;
 }
+
 .features ul,
 .benefits ul {
   list-style: none;
   padding: 0;
 }
+
 .features li,
 .benefits li {
   margin: 10px 0;
   display: flex;
   align-items: center;
 }
+
 .features li:before,
 .benefits li:before {
   content: "✔";
   color: #4caf50;
   margin-right: 10px;
 }
+
 .sidebar {
-  background-color: #e0e7ff;
+  background-color: white;
   padding: 20px;
   text-align: center;
+  width: 30%;
+  border-radius: 8px;
 }
+
+.sidebar > p {
+  text-align: start;
+  margin: 0;
+}
+
 .sidebar .price {
   font-size: 28px;
   color: #1e3a8a;
   margin: 0;
+  text-align: start;
 }
+
+.sidebar .price-discount {
+  text-align: start;
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
 .sidebar .old-price {
   text-decoration: line-through;
   color: #999;
 }
+
 .sidebar .button {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  width: 85%;
   background-color: #3b82f6;
   color: white;
   padding: 10px 20px;
@@ -68,15 +121,52 @@ main {
   text-decoration: none;
   border-radius: 5px;
 }
+
 .sidebar .details {
   margin-top: 20px;
-  text-align: left;
+  display: flex;
+  flex-direction: column;
 }
-.sidebar .details p {
-  margin: 10px 0;
+
+.details .detail-row {
   display: flex;
   align-items: center;
 }
-.sidebar .details p i {
-  margin-right: 10px;
+
+.details .detail-row img {
+  height: 20px;
+}
+
+.sidebar .details p {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  margin-left: 5px;
+}
+
+.sidebar .course-img {
+  display: absolute;
+  margin-top: 5em;
+}
+
+.sidebar .course-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 85%;
+  }
 }
